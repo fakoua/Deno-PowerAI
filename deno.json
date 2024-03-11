@@ -1,5 +1,8 @@
 {
   "name": "@fakoua/powerai",
-  "version": "0.1.2",
-  "exports": "./mod.ts"
+  "version": "1.1.0",
+  "exports": "./mod.ts",
+  "imports": {
+    "openai": "npm:openai@^4.28.4"
+  }
 }
